@@ -17,5 +17,5 @@ def plot_options(strategy):
 strat_1 = Strategy()
 strat_1.add_option('buy', 'call', 1950, 60)
 strat_1.add_option('sell', 'call', 2050, 8)
-# plot_strategy(strat_1)
-plot_options(strat_1)
+plot_strategy(strat_1)
+# plot_options(strat_1)
